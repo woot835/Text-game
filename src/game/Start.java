@@ -9,28 +9,28 @@ public class Start {
 		String name = TextIO.getlnString();
 
 		if (beginning.seed = 0) {
-			String algus = "test1";
+			System.out.println("Now"+ name +", You will begin your adventure at test ");
 
 		} if (beginning.seed = 1) {
-			String algus = "test2";
+			System.out.println("Now"+ name +", You will begin your adventure at test ");
 
 		}if (beginning.seed = 2) {
-			String algus = "test3";
+			System.out.println("Now"+ name +", You will begin your adventure at test ");
 
 		}if (beginning.seed = 3) {
-			String algus = "test4";
+			System.out.println("Now"+ name +", You will begin your adventure at test ");
 
 		}if (beginning.seed = 4) {
-			String algus = "test5";
+			System.out.println("Now"+ name +", You will begin your adventure at test ");
 
 		}if (beginning.seed = 5) {
-			String algus = "test6";
+			System.out.println("Now"+ name +", You will begin your adventure at test ");
 
 		} else {
 			System.out.println("You broke the game gj");
 		}
 
-		System.out.println("Now"+ name +", You will begin your adventure at " + algus);
+
 
 		Beginning beginning = new Beginning();
 		beginning.printVal();

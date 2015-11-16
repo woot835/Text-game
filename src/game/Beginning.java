@@ -1,7 +1,7 @@
 package game;
 
 public class Beginning {
-	private int seed = (int) (Math.random() * 6);
+	static int seed = (int) (Math.random() * 6);
 	public Beginning() {}
 
 	public void printVal() {

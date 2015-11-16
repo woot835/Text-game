@@ -8,21 +8,21 @@ public class Start {
 		System.out.println("Can I have your name?");
 		String name = TextIO.getlnString();
 
-		if (beginning.seed = 0) {
-			System.out.println("Now"+ name +", You will begin your adventure at test ");
+		if (Beginning.seed == 0) {
+			System.out.println("Now "+ name +", You will begin your adventure at test ");
 
-			if (beginning.seed = 1) {
-				System.out.println("Now" + name + ", You will begin your adventure at test ");
-				if (beginning.seed = 2) {
-					System.out.println("Now" + name + ", You will begin your adventure at test ");
-					if (beginning.seed = 3) {
-						System.out.println("Now" + name + ", You will begin your adventure at test ");
-						if (beginning.seed = 4) {
-							System.out.println("Now" + name + ", You will begin your adventure at test ");
-							if (beginning.seed = 5) {
-								System.out.println("Now" + name + ", You will begin your adventure at test ");
-								if (beginning.seed = 5) {
-									System.out.println("Now" + name + ", You will begin your adventure at test ");
+			if (Beginning.seed == 1) {
+				System.out.println("Now " + name + ", You will begin your adventure at test1 ");
+				if (Beginning.seed == 2) {
+					System.out.println("Now " + name + ", You will begin your adventure at test2 ");
+					if (Beginning.seed == 3) {
+						System.out.println("Now " + name + ", You will begin your adventure at test3 ");
+						if (Beginning.seed == 4) {
+							System.out.println("Now " + name + ", You will begin your adventure at test4 ");
+							if (Beginning.seed == 5) {
+								System.out.println("Now " + name + ", You will begin your adventure at test5 ");
+								if (Beginning.seed == 5) {
+									System.out.println("Now " + name + ", You will begin your adventure at test6 ");
 
 
 								}

@@ -11,21 +11,26 @@ public class Start {
 		if (beginning.seed = 0) {
 			System.out.println("Now"+ name +", You will begin your adventure at test ");
 
-		} if (beginning.seed = 1) {
-			System.out.println("Now"+ name +", You will begin your adventure at test ");
+			if (beginning.seed = 1) {
+				System.out.println("Now" + name + ", You will begin your adventure at test ");
+				if (beginning.seed = 2) {
+					System.out.println("Now" + name + ", You will begin your adventure at test ");
+					if (beginning.seed = 3) {
+						System.out.println("Now" + name + ", You will begin your adventure at test ");
+						if (beginning.seed = 4) {
+							System.out.println("Now" + name + ", You will begin your adventure at test ");
+							if (beginning.seed = 5) {
+								System.out.println("Now" + name + ", You will begin your adventure at test ");
+								if (beginning.seed = 5) {
+									System.out.println("Now" + name + ", You will begin your adventure at test ");
 
-		}if (beginning.seed = 2) {
-			System.out.println("Now"+ name +", You will begin your adventure at test ");
 
-		}if (beginning.seed = 3) {
-			System.out.println("Now"+ name +", You will begin your adventure at test ");
-
-		}if (beginning.seed = 4) {
-			System.out.println("Now"+ name +", You will begin your adventure at test ");
-
-		}if (beginning.seed = 5) {
-			System.out.println("Now"+ name +", You will begin your adventure at test ");
-
+								}
+							}
+						}
+					}
+				}
+			}
 		} else {
 			System.out.println("You broke the game gj");
 		}

@@ -1,6 +1,6 @@
 package game;
 
-import game.Util;
+import library.Util;
 public class Player {
 
 	int Hero1Health = Util.randomIntInclusive(200, 400); // Hero Health and Damage, randomized at the start

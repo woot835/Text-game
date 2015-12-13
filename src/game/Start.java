@@ -3,6 +3,7 @@ package game;
 import java.util.Random;
 
 import library.TextIO;
+import library.Util;
 
 public class Start {
 
@@ -82,8 +83,8 @@ public class Start {
 						System.out.println(Hero4 + " has taken " + dmgTaken + " amount of damage! \n");
 					} else {
 					}
-					if (player.Hero1Health < 0) { // Yells if player is not
-													// alive
+					if (player.Hero1Health < 0) { // Yells if player is not alive
+
 						System.out.println("----------------------------------------------------------");
 						System.out.println(Hero1 + " has died");
 						System.out.println("----------------------------------------------------------");
@@ -115,8 +116,7 @@ public class Start {
 					enemyHealth = enemyHealth - dmgTotal;
 
 					if (player.Hero1Health > 0) { // Yells who did how much
-													// damage , or if they are
-													// dead
+													// damage , or if they are dead
 						System.out.println(Hero1 + " strikes the enemy for " + dmgDone1 + " damage! \n");
 					} else {
 						System.out.println(Hero1 + " is dead \n");

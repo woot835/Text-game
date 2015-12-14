@@ -1,7 +1,7 @@
 # Text-game
 Title: Text-Game
 
-Author: Meelis Hass, C11, Estonian IT College. Contactable at mhass@itcollege.e
+Author: Meelis Hass, C11, Estonian IT College. Contactable at mhass@itcollege.ee
 
 Purpose: To make a working RPG Text based game, that takes input from its user to function.
 
